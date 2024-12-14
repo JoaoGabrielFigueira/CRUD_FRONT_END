@@ -1,0 +1,215 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: start; 
+    color:#225a88;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0; 
+    
+}
+
+thead {
+    background-color: rgb(1, 120, 255);
+    color: white;
+
+}
+
+thead th, tbody td {
+    padding: 5px;
+    text-align: center;
+    border-radius: 80px;
+}
+
+tbody tr td {
+    text-align: center;
+}
+
+button,
+input[type="submit"] {
+    background-color: rgb(34, 204, 255);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#busca {
+    width: 200px;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+}
+
+button#buscar {
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#modal {
+    display: none;
+    width: 500px;
+    max-height: 80%;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #225a88;
+    color: white;
+    border-radius: 15px;
+    padding: 100px;
+    overflow-y: auto;
+}
+
+#modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.modal-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close:hover {
+    color: #007BFF;
+}
+
+#modalstyle {
+    display: none;
+    width: 300px; 
+    height: 200px; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza no meio da tela */
+    background-color: #225a88;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#modalstyle .modal-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#modalstyle .modal-body {
+    font-size: 14px;
+}
+
+#modalstyle .modal-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#modalstyle .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#modalstyle .close:hover {
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    margin: 5px 0;
+}
+
+button#fechar {
+    margin-top: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+button.modal-footer-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button.modal-footer-btn:hover {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+page-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; 
+    padding-top: 50px;
+}
+
+
